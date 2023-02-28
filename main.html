@@ -12,15 +12,19 @@
       width: 50vh;
       height: 180vh;
       background-color: #ffffff;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
     }
     h1{
       font-size: 24px;
       margin: 0px;
       text-align: center;
+    }
+    #topContainer{
+      position: relative;
+      top: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
     #container1{
       width: 210px;
@@ -57,22 +61,22 @@
 
 <body>
 
+  
+  <!-- topContainer = container1 + container2 + circle -->
+  <div id="topContainer">
+  <!-- 제목 및 라인 -->
   <div id="container1">
     <h1>Lorem Ipsum</h1>
     <hr id="line">
   </div>
-
+  <!-- p태그 -->
   <div id="container2">
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
   </div>
-
+  <!--회색원형 -->
   <div id="circle"></div>
-
-
-  <script>
-  </script>
-
-
+  </div>
+  
 
 </body>
 </html>
