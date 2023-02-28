@@ -1,0 +1,2 @@
+import { trainingData } from "./TData";
+
